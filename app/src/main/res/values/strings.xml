@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Sv</string>
+    <string name="multiplelines">Line1 \n Line2</string>
+</resources>

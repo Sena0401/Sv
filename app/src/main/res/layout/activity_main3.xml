@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFC0CB"
+    android:orientation="vertical"
+    tools:context=".MainActivity3">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <TextView
+        android:layout_width="324dp"
+        android:layout_height="63dp"
+        android:layout_gravity="center"
+        android:background="@drawable/shapenocolor"
+        android:gravity="center"
+        android:text="Danh Sách Các Lớp"
+        android:textSize="30sp"
+        android:textStyle="bold"></TextView>
+
+    <FrameLayout
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="45dp"
+        android:background="@drawable/shape3">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/baseline_add_24" />
+    </FrameLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="110dp"
+        android:layout_gravity="center"
+        android:background="@drawable/shape4">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shapenocolor">
+
+            <ImageView
+                android:id="@+id/btnnext"
+                android:layout_width="108dp"
+                android:layout_height="98dp"
+                android:background="@drawable/icons8_classroom_96" />
+        </FrameLayout>
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="240dp"
+            android:layout_height="100dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:text="TÊN LỚP: CCNTT21A"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="NGÀNH: CĐ CNTT-TT"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:text="KHOÁ 21"
+
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp"/>
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="110dp"
+        android:layout_gravity="center"
+        android:background="@drawable/shape4">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shapenocolor">
+
+            <ImageView
+                android:id="@+id/btnnext1"
+
+                android:layout_width="108dp"
+                android:layout_height="98dp"
+                android:background="@drawable/icons8_classroom_96" />
+        </FrameLayout>
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="240dp"
+            android:layout_height="100dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:text="TÊN LỚP: CCNTT21A"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="NGÀNH: CĐ CNTT-TT"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:text="KHOÁ 21"
+
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
